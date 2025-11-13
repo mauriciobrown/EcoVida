@@ -111,3 +111,21 @@ section#contenido {
   border-radius: 6px;
   cursor: pointer;
 }
+
+.lista-fotos {
+  list-style: none;
+  padding: 0;
+}
+
+.foto-item {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+
+.miniatura {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+}
+

@@ -54,6 +54,10 @@ function mostrarSeccion(seccion) {
     case 'configuracion':
       contenido.innerHTML = generarVistaConfiguracion();
       break;
+    case 'fotos':
+      contenido.innerHTML = generarVistaFotos();
+      break;
+
     default:
       contenido.innerHTML = `<p>Sección no encontrada.</p>`;
   }
